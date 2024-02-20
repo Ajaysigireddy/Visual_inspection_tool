@@ -1,0 +1,3 @@
+URL_MODEL_CONTROLLER = "http://10.2.8.173:5001/{}"
+
+ENDPOINT_START_DETECTION = URL_MODEL_CONTROLLER.format("/models/startDetection")

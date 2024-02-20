@@ -1,0 +1,14 @@
+version: '3.10.6'
+
+services:
+ web:
+  build:
+   context: .
+  expose:
+    - 5000
+  ports:
+   - 8000:5000
+  volumes:
+   - .:/app
+
+
