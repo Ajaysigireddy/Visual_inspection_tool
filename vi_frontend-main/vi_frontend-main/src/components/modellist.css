@@ -1,0 +1,79 @@
+/* Adjust column width */
+.modeltable th:nth-child(1),
+.modeltable td:nth-child(1) {
+  width: 15%;
+}
+
+.modeltable th:nth-child(2),
+.modeltable td:nth-child(2) {
+  width: 15%;
+}
+
+.modeltable th:nth-child(3),
+.modeltable td:nth-child(3) {
+  width: 30%;
+}
+
+.modeltable th:nth-child(4),
+.modeltable td:nth-child(4) {
+  width: 10%;
+}
+
+.modeltable th:nth-child(5),
+.modeltable td:nth-child(5) {
+  width: 30%;
+}
+
+/* Style buttons */
+button {
+  background-color: transparent;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+button:hover {
+  background-color: #7f7f7f;
+  color: #fff;
+}
+
+/* .buttons {
+    text-align: center;
+} */
+
+/* .table-container {
+    text-align: center;
+} */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #e5e5e5;
+  }
+
+  tbody input[type="checkbox"] {
+    transform: scale(1.5); 
+    margin-right: 5px;
+  }

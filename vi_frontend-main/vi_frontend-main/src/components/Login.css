@@ -1,0 +1,23 @@
+.form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    width: 120px;
+    margin-right: 10px;
+  }
+  
+  .form-group input {
+    flex: 1;
+  }
+
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+  }
